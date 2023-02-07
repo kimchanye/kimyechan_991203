@@ -1,0 +1,301 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 130945 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity_Prj/Phenotype
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62895
+Successfully changed project path to: D:/Unity_Prj/Phenotype
+D:/Unity_Prj/Phenotype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 90.49 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.45 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Prj/Phenotype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3090 (ID=0x2204)
+    Vendor:   NVIDIA
+    VRAM:     24348 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.026226 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.32 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.734 seconds
+Domain Reload Profiling:
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (473ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009977 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Prj\Phenotype\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity_Prj\Phenotype\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Package Manager log level set to [2]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\Unity_Prj\Phenotype\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity_Prj\Phenotype\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:256 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (818ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3712 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (216.7 KB). Loaded Objects now: 4180.
+Memory consumption went from 203.7 MB to 203.5 MB.
+Total: 3.414400 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.866400 ms  DeleteObjects: 0.141400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2854.139906 seconds.
+  path: Assets/220913/FBX/deeppan.fbx
+  artifactKey: Guid(172462c95ba3b3940a5615575292ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/deeppan.fbx using Guid(172462c95ba3b3940a5615575292ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e5dcb559d70f542e5c907a35a0589b') in 0.167295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 180.227056 seconds.
+  path: Assets/220913/FBX/deeppan.fbx
+  artifactKey: Guid(172462c95ba3b3940a5615575292ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/deeppan.fbx using Guid(172462c95ba3b3940a5615575292ad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954153123be4679d22c9d7bf73a275fa') in 0.027307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.213569 seconds.
+  path: Assets/Textures/deeppan_dirty01.tif
+  artifactKey: Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/deeppan_dirty01.tif using Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e74f2e070212a1329a48c98ca9ea7c9') in 0.041485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 231.827622 seconds.
+  path: Assets/Textures/deeppan_dirty01.tif
+  artifactKey: Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/deeppan_dirty01.tif using Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed69df00354acda91c2934af133985d') in 0.022475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 239.804927 seconds.
+  path: Assets/Textures/deeppan_dirty01.tif
+  artifactKey: Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/deeppan_dirty01.tif using Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fc4f534d7a1e2139ef888f31098894') in 0.013071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 210.516158 seconds.
+  path: Assets/Textures/deeppan_dirty01.tif
+  artifactKey: Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/deeppan_dirty01.tif using Guid(1534f81311eb7724fafc54446495c73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c2416d07169c5f81aaeaa81041a13d') in 0.013909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 504.976813 seconds.
+  path: Assets/220913/Texture/sink_(dirty).tga
+  artifactKey: Guid(b47afb633f7b7024bb158974cb2071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/Texture/sink_(dirty).tga using Guid(b47afb633f7b7024bb158974cb2071d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b278dfe2dad67500de962ae7c44718ed') in 0.017020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 96.947477 seconds.
+  path: Assets/220913/FBX/OLD/Cabinet_Base_Sink_01 (1).fbx
+  artifactKey: Guid(4e408c0faa54ef441a7b3b297f787ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/OLD/Cabinet_Base_Sink_01 (1).fbx using Guid(4e408c0faa54ef441a7b3b297f787ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa211e6f54944f0708748ad9d8531267') in 0.101012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6993.542893 seconds.
+  path: Assets/220913/FBX/OLD/sink.fbx
+  artifactKey: Guid(12496cf5cb86c8643be8931a1874e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/OLD/sink.fbx using Guid(12496cf5cb86c8643be8931a1874e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76699bb3db237fb0692b7570edc5015b') in 0.039512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.475526 seconds.
+  path: Assets/220913/FBX/OLD/sink_01.fbx
+  artifactKey: Guid(3eeb78caa35e2464199f72e74aac26f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/OLD/sink_01.fbx using Guid(3eeb78caa35e2464199f72e74aac26f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7265edcdd504a9090b93bccdc0033201') in 0.024903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 94.303654 seconds.
+  path: Assets/220913/FBX/Materials/deeppan_dirty01.mat
+  artifactKey: Guid(1fb45ecf0701a1f4c8c4d366424bfd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/Materials/deeppan_dirty01.mat using Guid(1fb45ecf0701a1f4c8c4d366424bfd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f790609b5fad6650eec4e87cc2f3432') in 0.018466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 451.462031 seconds.
+  path: Assets/220913/FBX/OLD/sink_01.fbx
+  artifactKey: Guid(3eeb78caa35e2464199f72e74aac26f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/FBX/OLD/sink_01.fbx using Guid(3eeb78caa35e2464199f72e74aac26f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0494b8cf4fdca3da869e7caaaecfdcf3') in 0.048708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.582952 seconds.
+  path: Assets/220913/Texture/Baby_textures/AO.png
+  artifactKey: Guid(359979ba9a37d5d4c83b7668351df95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/Texture/Baby_textures/AO.png using Guid(359979ba9a37d5d4c83b7668351df95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f84a8edd476903d27739e4ec66962d') in 0.020468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035980 seconds.
+  path: Assets/220913/Texture/Baby_textures/baby_LP_baby_body_Normal.png
+  artifactKey: Guid(ca2e5f285404653409c6ce2d0a9c3f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/Texture/Baby_textures/baby_LP_baby_body_Normal.png using Guid(ca2e5f285404653409c6ce2d0a9c3f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2563e5eebbe5a0b1bee4edf1cd9ded03') in 0.021095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/220913/Texture/Baby_textures/baby_LP_baby_body_SpecularSmoothness.png
+  artifactKey: Guid(069f4d10e95e5ff4c88c432ec39d19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/Texture/Baby_textures/baby_LP_baby_body_SpecularSmoothness.png using Guid(069f4d10e95e5ff4c88c432ec39d19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2694771347cc5d6fb7531f80f579cf76') in 0.014296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.096010 seconds.
+  path: Assets/220913/Texture/Baby_textures/baby_LP_baby_body_AlbedoTransparency_(dirty).png
+  artifactKey: Guid(6fbf5534498c8cc40b9b2f69f1cba62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/220913/Texture/Baby_textures/baby_LP_baby_body_AlbedoTransparency_(dirty).png using Guid(6fbf5534498c8cc40b9b2f69f1cba62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eb6ecc7e099cfd19803e599d93f878') in 0.025852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 950.329931 seconds.
+  path: Assets/Textures/sink_dirty02.tif
+  artifactKey: Guid(c2e61f918423d1c4abd4b8f32765f2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sink_dirty02.tif using Guid(c2e61f918423d1c4abd4b8f32765f2fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f571df8df2cc69ef65e6f642be03a6cc') in 0.012715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034428 seconds.
+  path: Assets/Textures/sink_dirty05.tif
+  artifactKey: Guid(e1f755dab9c55894e82e7cfc98b6e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sink_dirty05.tif using Guid(e1f755dab9c55894e82e7cfc98b6e17b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8259c162138af15a998d852789ba3ada') in 0.014139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Textures/sink_dirty06.tif
+  artifactKey: Guid(c6de9fe9a9abc4d4ab1cd39c050517ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sink_dirty06.tif using Guid(c6de9fe9a9abc4d4ab1cd39c050517ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7e03e2896fa5800df4a2ae0131e68a') in 0.013698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Textures/sink_dirty04.tif
+  artifactKey: Guid(995c22c86d9ae9e4dab7fff321dfd06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/sink_dirty04.tif using Guid(995c22c86d9ae9e4dab7fff321dfd06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4324d48165da1d92b03c1dc40f9c3ad7') in 0.011754 seconds 
